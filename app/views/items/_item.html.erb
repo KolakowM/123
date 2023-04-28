@@ -1,0 +1,30 @@
+<div id="<%= dom_id item %>">
+  <p>
+    <strong>Name:</strong>
+    <%= item.name %>
+  </p>
+
+  <p>
+    <strong>Body:</strong>
+    <%= item.body %>
+  </p>
+
+  <p>
+    <strong>Content:</strong>
+    <%= item.content %>
+  </p>
+
+</div>
+
+
+<section class="bg-light">
+  <div class="container-fluid">
+    <div class="card">
+
+      <div class="card-body">
+        <h5 class="card-title"><%= item.name %></h5>
+        <p class="card-text"><%= item.content %></p>
+      </div>
+    </div>
+  </div>
+</section>
