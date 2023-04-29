@@ -2,38 +2,30 @@
   <div class="container bg-dark">
     <div class="row">
       <div class="col-md-3 mb-3">
-        <img src="/path/to/logo.png" alt="Logo" class="img-fluid">
+        <%= image_tag("miau.png", size: "240x200", alt: "Logo") %>
       </div>
       <div class="col-md-6 mb-3">
         <div class="row">
           <div class="col-md-4 mb-2">
-            <h6>Regulamin</h6>
+            <h6> <a href="#"> Regulamin</h6>
+            <h6> <a href="#"> Polityka prywatności</h6>
             <ul class="list-unstyled">
               <li><a href="#">Punkt 1</a></li>
-              <li><a href="#">Punkt 2</a></li>
-              <li><a href="#">Punkt 3</a></li>
+
             </ul>
           </div>
           <div class="col-md-4 mb-2">
-            <h6>Polityka prywatności</h6>
-            <ul class="list-unstyled">
-              <li><a href="#">Punkt 1</a></li>
-              <li><a href="#">Punkt 2</a></li>
-              <li><a href="#">Punkt 3</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 mb-2">
-            <h6>Kontakt</h6>
-            <form action="/path/to/admin/email" method="post">
-              <div class="form-group">
-                <label for="email" class="sr-only">Email</label>
-                <input type="email" id="email" name="email" class="form-control" placeholder="Adres email">
-              </div>
-              <button type="submit" class="btn btn-outline-light btn-block">Wyślij</button>
-            </form>
-          </div>
-        </div>
-      </div>
+            <!--      <h6>Kontakt</h6>
+                  <form action="/path/to/admin/email" method="post">
+                    <div class="form-group" style="margin: 5px">
+                      <label for="email" class="sr-only">Email</label>
+                      <input type="email" id="email" name="email" class="form-control" placeholder="Adres email">
+                    </div>
+                    <button type="submit" class="btn btn-outline-light btn-block">Wyślij</button>
+                  </form>
+                </div>
+              </div> -->
+            </div>
       <div class="col-md-3 mb-3">
         <address>
           <strong>Adres firmy</strong><br>
